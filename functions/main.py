@@ -15,7 +15,7 @@ SUPPORTED_LANGUAGES = {"en","hi","es","pt","ru","de","fr","ja","ko","ar"}
 )
 def generate_timestamps(req: https_fn.CallableRequest) -> dict:
     # Log incoming request
-    print("generate_timestamps: received data:", req.data)
+    print("generate_timestamps: received DATAATATA:", req.data)
 
     # 1) Auth guard
     if not req.auth or not req.auth.uid:
